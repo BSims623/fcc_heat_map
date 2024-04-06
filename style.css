@@ -1,0 +1,55 @@
+#title {
+    margin-bottom: 0;
+}
+
+#title,
+#description {
+    color: black;
+}
+
+g {
+    color: black;
+}
+
+.legendText {
+    fill: black;
+}
+
+.tooltipText {
+    text-align: center;
+    margin: 0;
+}
+
+body {
+    background: white;
+    box-sizing: border-box;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#mainSvg {
+    background: white;
+}
+
+#legend {
+    background: white;
+}
+
+#tooltip {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
